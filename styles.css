@@ -3,7 +3,8 @@
 	width:100vw;
 	display:flex;
 	 flex-wrap: wrap;
-	justify-content:space-around;
+	justify-content:space-evenly;
+	flex-direction:row;
 	gap: 20px;
 }
 .item{
