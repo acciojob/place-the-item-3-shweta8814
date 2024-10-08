@@ -1,11 +1,15 @@
 .holder{
+	background-color:red;
+	width:100vw;
 	display:flex;
-	flex-wrap:wrap;
+	 flex-wrap: wrap;
 	justify-content:space-around;
-	gap:20px;
+	gap: 20px;
 }
-.holder item{
-	flex:1 1 30%;
-	max-width: 30%;
-	box-sizing:border-box;
+.item{
+	width:200px;
+	height:200px;
+	background-color:green;
+	flex: 1 1 30%;  
+    box-sizing: border-box;
 }
