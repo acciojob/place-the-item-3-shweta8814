@@ -1,16 +1,7 @@
 .holder{
-	background-color:red;
-	width:100vw;
 	display:flex;
 	 flex-wrap: wrap;
 	justify-content:space-evenly;
 	flex-direction:row;
-	gap: 20px;
-}
-.item{
-	width:200px;
-	height:200px;
-	background-color:green;
-	flex: 1 1 30%;  
-    box-sizing: border-box;
+	
 }
